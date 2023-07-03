@@ -5,8 +5,8 @@ namespace Iim\td2;
 
 class Api {
 
-    public function getRandomNumber(): int {
-        return rand(0, 100);
+    public function getDate(): \DateTime {
+        return new \DateTime();
     }
 
 }
