@@ -1,0 +1,23 @@
+{
+    "name": "romainmltr/iim-td2",
+    "description": "A beautifull demo package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IiM\\td2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "romainmltr",
+            "email": "romain.malaterre@joyjet.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
